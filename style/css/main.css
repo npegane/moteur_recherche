@@ -1,0 +1,77 @@
+.custom-card{
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+
+.custom-card-header{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color:rgba(0, 244, 84, 0.12);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.custom-btn {
+    width: 100%;
+    text-align: left;
+}
+.cloud-div {
+    margin-top: 10px;
+    text-align:center;
+    color: rgb(158, 62, 248);
+    cursor: pointer;
+}
+
+.cloud-icon {
+    opacity:100% !important;
+    font-size: 3em;
+    color: rgb(81, 1, 155);
+}
+
+.cloud-div:hover {
+    color: rgb(81, 1, 155);
+}
+
+/* Tooltip container */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .custom-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    height:120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: -135%;
+    left: 90%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .custom-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  
+  /* Show the custom-tooltip text when you mouse over the tooltip container */
+  .custom-tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .cadre{
+    border: 5px dotted #007bff;
+    border-radius: 30px;
+  }
